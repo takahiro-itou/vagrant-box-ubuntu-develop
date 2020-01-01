@@ -9,6 +9,7 @@ sudo  apt  update
 sudo  apt-mark   hold  libssl1.1
 sudo  apt  upgrade -y
 sudo  apt  install -y  build-essential  mercurial
+sudo  apt-mark unhold  libssl1.1
 
 # clean up
 sudo  rm -f  /var/lib/apt/lists/lock
