@@ -7,8 +7,10 @@ sudo  timedatectl  set-timezone Asia/Tokyo
 sudo  apt  update
 
 export DEBIAN_FRONTEND=noninteractive
-sudo  -E  apt  upgrade -y
-sudo  -E  apt  install -y  build-essential  mercurial
+sudo  -E  apt  install -y  libssl1.1
+
+sudo  apt  install -y  build-essential  \
+    cmake  doxygen  emacs  mercurial
 
 # clean up
 sudo  rm -f  /var/lib/apt/lists/lock
