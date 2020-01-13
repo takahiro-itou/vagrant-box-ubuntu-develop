@@ -10,7 +10,8 @@ export DEBIAN_FRONTEND=noninteractive
 sudo  -E  apt  install -y  libssl1.1
 
 sudo  apt  install -y  build-essential  \
-    cmake  doxygen  emacs  mercurial
+    cmake  doxygen  emacs  mercurial    \
+    clang
 
 # clean up
 sudo  rm -f  /var/lib/apt/lists/lock
