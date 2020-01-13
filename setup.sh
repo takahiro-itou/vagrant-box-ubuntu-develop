@@ -1,7 +1,7 @@
 #! /bin/bash  -xue
 
-boxFile='ubuntu-develop.box'
-boxName='ubuntu-bionic64-develop'
+boxFile='ubuntu-develop-small.box'
+boxName='ubuntu-bionic64-develop-small'
 
 # Account Name of Vagrant Cloud.
 vcUser='takahiro-itou'
