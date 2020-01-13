@@ -16,7 +16,6 @@ Vagrant.configure("2") do |config|
       "--ioapic",           "on",
       "--pae",              "on",
       "--paravirtprovider", "kvm",
-      "--uartmode1",        "disconnected",
     ]
   end
 
