@@ -10,7 +10,8 @@ export DEBIAN_FRONTEND=noninteractive
 sudo  -E  apt  upgrade -y
 
 sudo  apt  install -y  build-essential      \
-    cmake  doxygen  emacs  git  mercurial
+    cmake  doxygen  emacs  git  mercurial   \
+    clang
 
 # clean up
 sudo  rm -f  /var/lib/apt/lists/lock
