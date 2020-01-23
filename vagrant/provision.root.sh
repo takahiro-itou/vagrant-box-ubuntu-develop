@@ -11,7 +11,8 @@ sudo  -E  apt  upgrade -y
 
 sudo  apt  install -y  build-essential      \
     cmake  doxygen  emacs  git  mercurial   \
-    clang
+    autoconf  automake   clang  gcc   g++   \
+    libtool  make  ncurses-dev  time  sudo
 
 # clean up
 sudo  rm -f  /var/lib/apt/lists/lock
