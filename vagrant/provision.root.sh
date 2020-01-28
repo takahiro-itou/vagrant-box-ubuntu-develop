@@ -18,14 +18,14 @@ sudo  apt  install -y  build-essential                          \
     fcitx  fcitx-mozc  ibus-mozc
 
 # clean up
-sudo  apt  autoremove
+sudo  apt  -y  --purge  autoremove
+sudo  apt  autoclean
 sudo  apt  clean
 
 sudo  rm -f  /var/lib/apt/lists/lock
 sudo  rm -f  /var/cache/apt/archives/lock
 sudo  rm -f  /var/lib/dpkg/lock
 
-sudo  rm  -rf  /var/log/*
 sudo  rm  -rf  /tmp/*
 sudo  dd  if=/dev/zero  of=zero  bs=4k
 sudo  rm  -f   zero
