@@ -27,7 +27,7 @@ sudo  rm -f  /var/cache/apt/archives/lock
 sudo  rm -f  /var/lib/dpkg/lock
 
 sudo  rm  -rf  /tmp/*
-sudo  dd  if=/dev/zero  of=zero  bs=4k
+sudo  dd  if=/dev/zero  of=zero  bs=4k  || :
 sudo  rm  -f   zero
 
 history  -c
