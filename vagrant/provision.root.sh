@@ -25,8 +25,11 @@ sudo  apt  install -y       \
     mercurial               \
     ncurses-dev             \
     make                    \
-    time                    \
+    ruby                    \
+    ruby-bundler            \
+    ruby-dev                \
     sudo                    \
+    time                    \
                             \
     language-pack-ja-base   \
     language-pack-ja        \
