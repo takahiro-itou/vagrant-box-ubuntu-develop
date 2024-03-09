@@ -15,7 +15,8 @@ sudo  apt  install -y  build-essential                          \
     libcppunit-dev  libtool  ncurses-dev                        \
     make  time  sudo                                            \
     language-pack-ja-base  language-pack-ja                     \
-    fcitx  fcitx-mozc  ibus-mozc
+    fcitx  fcitx-mozc  ibus-mozc                                \
+    ;
 
 # clean up
 sudo  apt  -y  --purge  autoremove
