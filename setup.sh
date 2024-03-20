@@ -1,8 +1,8 @@
 #! /bin/bash  -xue
 
-box_version='v1.4.1'
-box_file="ubuntu-develop.jammy64-${box_version}.box"
 box_name='ubuntu-jammy64-develop'
+box_version='v1.4.1'
+box_file="${box_name}.${box_version}.box"
 
 # Account Name of Vagrant Cloud.
 vc_user='takahiro-itou'
