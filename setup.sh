@@ -1,7 +1,7 @@
 #! /bin/bash  -xue
 
-boxFile='ubuntu-develop.box'
-boxName='ubuntu-bionic64-develop'
+box_file='ubuntu-develop.box'
+box_name='ubuntu-bionic64-develop'
 
 # Account Name of Vagrant Cloud.
 vcUser='takahiro-itou'
@@ -12,7 +12,7 @@ vagrant  destroy -f  || exit $?
 vagrant  up          || exit $?
 vagrant  halt
 
-vagrant  package   --output ../${boxFile}  default
+vagrant  package   --output ../${box_file}  default
 
 popd
 set  +x
@@ -22,5 +22,5 @@ To add package into box list, run:
 _EOF_
 
 cat  << _EOF_
-vagrant  box  add  --name ${vcUser}/${boxName}  ${boxFile}
+vagrant  box  add  --name ${vcUser}/${box_name}  ${box_file}
 _EOF_
