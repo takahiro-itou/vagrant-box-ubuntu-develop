@@ -22,9 +22,10 @@ sudo  apt  install -y       \
     git                     \
     libcppunit-dev          \
     libtool                 \
+    make                    \
     mercurial               \
     ncurses-dev             \
-    make                    \
+    ntp                     \
     ruby                    \
     ruby-bundler            \
     ruby-dev                \
