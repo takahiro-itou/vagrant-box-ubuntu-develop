@@ -2,7 +2,7 @@
 
 box_name='ubuntu-jammy64-develop'
 box_version='v1.4.1'
-box_file="ubuntu-jammy64-develop.${box_version}.box"
+box_file="${box_name}.${box_version}.box"
 
 # Account Name of Vagrant Cloud.
 vc_user='takahiro-itou'
