@@ -1,6 +1,6 @@
 # vagrant-box-ubuntu-develop
 
-基本的な開発環境をインストールした Ubuntu 18.04 (bionic) 64 bit
+基本的な開発環境をインストールした Ubuntu 22.04 (jammy)  64 bit
 
 ## ボックスを自前で作成する
 
@@ -19,7 +19,7 @@ cd  vagrant-box-ubuntu-develop
 ### 作成したボックスを登録する。
 
 ```bash
-vagrant box add  --name <yourname>/ubuntu-bionic64-develop  ubuntu-develop.box
+vagrant box add  --name <yourname>/ubuntu-jammy64-develop  ubuntu-jammy64-develop.v1.4.2.box
 ```
 
 ## 作成済みのボックスをダウンロードして使う
